@@ -5,7 +5,6 @@ Config file to use the PluCSS framework with shortcodes
 
 Examples:
 
-Alert
 [info]Somes informations[/info]
 
 [success]Ho Yeah[/success]
