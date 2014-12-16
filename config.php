@@ -64,12 +64,28 @@ function button_shortcode( $atts, $content = null ) {
 
       ), $atts ) );
 
-
    return '<a href="' . $link . '" class="button ' . $color . '">' . $content . '</a>';
 
 }
 add_shortcode('button', 'button_shortcode'); 
   
+  
+/**
+	PluCSS Progress bar
+	(value en percent)
+*/
+function progressbar_shortcode( $atts, $content = null ) {
+
+   extract( shortcode_atts( array(
+
+      'val' => 'caption',
+
+      ), $atts ) );
+
+   return '<div class="progress"><span style="width:' . $val . ';">' . $val . '</span></div>';
+
+}
+add_shortcode('progressbar', 'progressbar_shortcode'); 
 
 ?>
 
