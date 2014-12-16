@@ -14,3 +14,5 @@ Examples:
 [error]ERROR 404[/error]
 
 [button color="green" link="http://pluxml.org"]PluXml Power[/button]
+
+[progressbar val="50%"]
